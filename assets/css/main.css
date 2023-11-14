@@ -4683,7 +4683,9 @@ input, select, textarea {
 		}
 
 	}
-/* Profile image styling */
+
+	
+	/* Profile image styling */
 	.profile-image {
 		width: 300px;
 		height: 300px;
