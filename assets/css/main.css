@@ -4683,3 +4683,38 @@ input, select, textarea {
 		}
 
 	}
+/* Profile image styling */
+	.profile-image {
+		width: 300px;
+		height: 300px;
+		margin: 20px ;
+		text-align: center;
+	}
+	/* Container styling */
+.container {
+	background: #2a2827;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+	
+	/* Portfolio section */
+	.portfolio {
+		background: #f4f4f4;
+		padding: 20px;
+		margin: 20px ;
+	}
+	
+	.portfolio h1 {
+		margin: 20;
+		padding: 20px;
+	}
+	
+	/* About section */
+	#about {
+		margin: 20px ;
+		padding: 20px;
+		background: #e2e2e2;
+	}
+	
+	
