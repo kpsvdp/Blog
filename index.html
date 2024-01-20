@@ -7,110 +7,87 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!------------------------Audio------------------------>
 		<audio autoplay loop>
-			<source src="Music/index.mp3" type="audio/mpeg">
+			<source src="Music/index1.mp3" type="audio/mpeg">
 			Your browser does not support the audio element.
 		</audio>
-		  <!-- Existing Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- ... -->
-
-        <!-- Additional Script for Audio Playback Control -->
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var audioElem = document.querySelector('audio');
-
-                // Play audio on desktop without user interaction
-                if (!window.matchMedia('(pointer: coarse)').matches) {
-                    audioElem.play();
-                }
-
-                // For mobile and tablet, play audio after a user interaction
-                document.addEventListener('touchstart', function() {
-                    audioElem.play();
-                });
-            });
-        </script>
 	</head>
+
 	<body class="is-preload">
-
-		<!-- Wrapper -->
+<!----------------------------- Wrapper -------------------------------------------------------------------------->
 			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
+<!----------------------------------------- Intro ---------------------------------------------------------------->
 					<div id="intro">
-						<h1>This is<br />
+						<h1>This is</br>
 							Ghostwriter</h1>
-						<p>Ghostwriter pens life's odyssey, a universal tale, thriller, and crime story.<a href="https://medium.com/@kpsvdp">@K.P.S.V.D. Prashanth</a> to <a href="#">Viewers</a><br /></p>
+						<p><b>Ghostwriter pens life's odyssey, a universal tale, thriller, and crime story.<a href="https://medium.com/@kpsvdp">@K.P.S.V.D. Prashanth</a> to <a href="#">Viewers</a><br /></b></p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#header" class="button primary icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
-
-				<!-- Header -->
+<!--------------------------------------------------- Header ------------------------------------------------------->
 					<header id="header">
 						<a href="index.html" class="logo">Ghostwriter</a>
-					</header>
-
-					
-				<!-- Nav -->
-<nav id="nav">
-    <ul class="links">
-        <li class="active"><a href="index.html">Ghostwriter</a></li>
-        <li><a href="Author.html">Author</a></li>
-        <li><a href="Universal.html">Universal</a></li>
-        <li><a href="Love&Break.html">Love & Break</a></li>
-        <li><a href="Mystery.html">Mystery</a></li>
-        <li><a href="Suspense.html">Suspense</a></li>
-    </ul>
-</nav>
-
-			<!-- Main -->
+					</header>			
+<!---------------------------------- Nav ---------------------------------------------------------------------------->
+                    <nav id="nav">
+                         <ul class="links">
+                             <li class="active"><a href="index.html">Ghostwriter</a></li>
+                             <li><a href="Author.html">Author</a></li>
+                             <li><a href="Universal.html">Universal</a></li>
+                             <li><a href="Love&Break.html">Love & Break</a></li>
+                             <li><a href="Mystery.html">Mystery</a></li>
+                             <li><a href="Suspense.html">Suspense</a></li>
+                         </ul>
+                    </nav>
+<!--------------------------------- Main ---------------------------------------------------------------------------->
 					<div id="main">
-
-
-						<!-- Featured Post -->
-							   <article class="post featured">
-								   <header class="major">
-					<body>
-						<header>
-							<div class="container">
-								<a href="#" class="image fit"><img src="images/Profile 01.jpg" alt="" /></a>
-								<div class="portfolio">
-									<section id="about">
-										<h3>About Me</h3>
-										<p> Why do I go by "ghostwriter"?</p>
-										<p1>A ghostwriter is a creative butterfly who can create anything, from universal storylines to reflective self-stories. They create stories of great tragedy, solve mysterious riddles, and dance gracefully between love and pain, giving each sentence breath.</p1>
-		
-
-						<div class="container">
+<!----------------------------------------- Featured Post ------------------------------------------------------------>
+					<article class="post featured">
+					        <header class="major">
+<!------------------------------------------ IMAGE ----------------------------------------------------------------->
+					              <body>
+						              <header>
+							              <div class="container">
+								               <a href="#" class="image fit"><img src="images/Profile 01.jpg" alt="" /></a>
+								                    <div class="portfolio">
+									                        <section id="about">
+										                         <h3>About Me</h3>
+										                             <p><b> Why do I go by "ghostwriter"? </b></p>
+										                             <p1>A ghostwriter is a creative butterfly who can create anything, from universal storylines to reflective self-stories. They create stories of great tragedy, solve mysterious riddles, and dance gracefully between love and pain, giving each sentence breath.</p1>
+                                                    </div> 
+									      </div>
+									  </header>
+								  </body>
+<!------------------------------- Feed Back ---------------------------------------------------------------------------->										  
+                   <section class="posts">					
+                        <div class="container">
 							<section id="about">
 								<h3> Give Us Your Feedback</h3>
 								<p1>We value your opinion! Please take a moment to provide us with your feedback.</p1>
 								<a href="https://docs.google.com/forms/d/e/1FAIpQLScmmNvWYheGGUCkeq93UK0n-yJGZq9rnW3r6-Zun_tWrH2MKw/viewform?usp=sf_link " class="button large">Feedback Form</a>
-							</section> </li>
+					        </section> 
 						</div>
-			
-				
-			</div>
-			<footer>
-				<section id="about">
-				<ul class="icons alt">
-				<li><a href="https://medium.com/@kpsvdp" class="icon brands fa-medium"><span class="label">medium</span></a></li>
-				<li><a href="https://twitter.com/KPSVDPrashanth" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="https://www.facebook.com/kpsvd.prashanth" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/prashanth_k.p.s.v.d" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="https://github.com/kpsvdp" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-			
-			</ul>
-		</section>
-		</footer>
-
-<!-- Copyright -->
+					</section> 
+</div>
+<!------------------------------------ Footer --------------------------------------------------------------------------->
+                    <footer style="text-align: center;">
+	                    <h2 style="color: rgb(0, 5, 3);">
+	                        <ul class="icons alt">
+		                        <li><a href="https://medium.com/@kpsvdp" class="icon brands fa-medium"><span class="label">medium</span></a></li>
+		                        <li><a href="https://twitter.com/KPSVDPrashanth" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+		                        <li><a href="https://www.facebook.com/kpsvd.prashanth" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+		                        <li><a href="https://www.instagram.com/prashanth_k.p.s.v.d" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+		                        <li><a href="https://github.com/kpsvdp" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+	                        </ul>
+	                    </h2>
+                    </footer>
+<!----------------------------------- Copyright ----------------------------------------------------------------------------->
 <div id="copyright">
 	<ul><li>&copy; Blogger</li><li>Design: <a href="#">Prashanth</a></li></ul>
 </div>
-		<!-- Scripts -->
+<!---------------------------------------- Scripts -------------------------------------------------------------------------->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -118,6 +95,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		
 	</body>
 </html>
