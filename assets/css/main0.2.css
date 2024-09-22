@@ -3175,7 +3175,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #fefeff;
-			background-image: url("../../assets/images/universalbg.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../assets/images/bg1.png");
+			background-image: url("../../assets/images/Universalbg1.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../assets/images/bg1.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3585,7 +3585,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-	background-image: url("../../assets/images/universalbg.png");
+	background-image: url("../../assets/images/Universalbg1.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
