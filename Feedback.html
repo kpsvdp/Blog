@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Feedback Form</title>
+    <link rel="stylesheet" href="assets/css/style 1.css">
+    <script>
+        function showThankYouMessage(event) {
+            event.preventDefault();  // Prevent the form from submitting and refreshing the page
+
+            // Display thank you message in an alert box
+            alert('Thank you for your feedback!');
+
+            // Optionally, display a thank-you message within the form container
+            const formContainer = document.querySelector('.feedback-form-container');
+            formContainer.innerHTML = '<h2>Thank you for your feedback!</h2>';
+        }
+    </script>
+</head>
+<body>
+    <div class="feedback-form-container">
+        <h2>Blog Feedback Form</h2>
+        <form onsubmit="showThankYouMessage(event)">
+            <!-- Name Fields -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">First Name <span style="font-weight: normal; color: #666;">(required)</span></label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="middle-name">Middle Name <span style="font-weight: normal; color: #666;">(optional)</span></label>
+                    <input type="text" id="middle-name" name="middle-name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname <span style="font-weight: normal; color: #666;">(required)</span></label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+            </div>
+
+            <!-- Email Field --> 
+<div class="form-row">
+    <div class="form-group">
+        <label for="email">Email <span style="font-weight: normal; color: #666;">(required)</span></label>
+        <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+    </div>
+</div>
+
+
+            <!-- Feedback Questions -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fav-story">Which story from the blog is your favorite?</label>
+                    <input type="text" id="fav-story" name="fav-story">
+                </div>
+                <div class="form-group">
+                    <label for="story-improvement">What could be improved in the stories? <span style="font-weight: normal; color: #666;">(required)</span></label>
+                    <textarea id="story-improvement" name="story-improvement" rows="4" required></textarea>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="new-ideas">Any suggestions for new story ideas?</label>
+                    <textarea id="new-ideas" name="new-ideas" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="general-feedback">Any other feedback about the blog?</label>
+                    <textarea id="general-feedback" name="general-feedback" rows="4"></textarea>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style 2.css">
-    <title>sign up</title>
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <title>Account Created</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('assets/images/feedback.jpg'); /* Add your wallpaper image path here */
+            background-size: cover; /* Make the background image cover the entire page */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+        }
+        .container {
+            text-align: center;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
 
-      <button class="openModalBtn" onclick="openModal()">Done</button>
+<div class="container">
+    <h1>Account Created Successfully!</h1>
+    <p>Your account has been created. You can now log in.</p>
+    <button onclick="goToLogin()">Back to Login</button>
+</div>
 
-      <a href="indexmain.html" class="openModalBtn" 
-      style="display: inline-block; text-decoration: none; text-align: center; padding: 10px 20px; width: 100px;">Back To Login</a>
-     
+<script>
+    function goToLogin() {
+        window.location.href = 'index.html'; // Replace with your actual login page URL
+    }
+</script>
 
-      <div class="popup">
-        <h1>Done</h1>
-        <p></p>
-        
-        <button type="button" class="closeModalBtn" onclick="closeModal()">Close</button>
-      </div>
-    </div>
+</body>
 
 <!-- center is-preload -->
 <body class="center is-preload">
      
   <!-- Copyright -->
 <div id="copyright">
-  <footer style="background-color: #000000; color: #ffffff; padding: 20px; text-align: center;">
+  <footer style="background-color: #000000b4; color: #ffffff; padding: 20px; text-align: center;">
         <h3>About Us</h3>
        <br>
     <p1> Welcome to Ghostwriter, a space where life's odyssey unfolds through the written word. Here, we capture the essence of universal tales, thrillers, and crime stories that keep you on the edge of your seat. Our blog is more than just storytelling; it’s a journey through the multifaceted narratives that define the human experience—gripping, mysterious, and ever-evolving.
@@ -62,15 +92,14 @@
               <a href="https://medium.com/@kpsvdp" target="_blank" style="color: #f39c12;">Medium</a>
       </div>
   
-      <!-- Navigation Links -->
-      <nav>
-          <a href="index.html" style="color: #f39c12; margin-right: 10px;">Home</a>
-          <a href="index.html" style="color: #f39c12; margin-right: 10px;">About</a>
-          <a href="/stories" style="color: #f39c12; margin-right: 10px;">Stories</a>
-          <a href="https://kpsvdp.github.io/Blog" style="color: #f39c12; margin-right: 10px;">Blog</a>
-          <a href="/contact" style="color: #f39c12; margin-right: 10px;">Contact</a>
-          <a href="/privacy-policy" style="color: #f39c12;">Privacy Policy</a>
-      </nav>
+     <!-- Navigation Links -->
+     <nav>
+      <a href="Home.html" style="color: #f39c12; margin-right: 10px;">Home</a>
+      <a href="Stories.html" style="color: #f39c12; margin-right: 10px;">Stories</a>
+      <a href="https://kpsvdp.github.io/Blog" style="color: #f39c12; margin-right: 10px;">Blog</a>
+      <a href="Contact.html" style="color: #f39c12; margin-right: 10px;">Contact</a>
+      <a href="Privacy Policy.html" style="color: #f39c12;">Privacy Policy</a>
+  </nav>
      
        </footer>
 </div>

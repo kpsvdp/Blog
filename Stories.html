@@ -1,24 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style 2.css">
-    
-    <title>Privacy Policy</title>
-  </head>
-  <body>
-    <div class="container">
-     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories List</title>
+    <link rel="stylesheet" href="assets/css/style 3.css">
+    <style>
+        /* Basic styling for image display */
+        .image-display {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* Ensure it is above other content */
+        }
 
-      <div class="popup">
-        <h1>Done</h1>
-        <p></p>
-        
-        
-      </div>
+        #story-image {
+            max-width: 80%;
+            max-height: 80%;
+            border: 2px solid white; /* Optional styling */
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stories List</h1>
+            <P>{Click The Name You Will get Poster!}</P>
+        </header>
+        <section class="author">
+            <h2>AUTHOR</h2>
+            <ul>
+                <li onclick="showImage('images/Author Pic/chapter 1/PJ0.jpg')">The Prince's Journey</li>
+                <li onclick="showImage('images/Author Pic/chapter 2/SA0.jpg')">Prince New School Joined</li>
+                <li onclick="showImage('images/Author Pic/chapter 3/BD0.jpg')">Prince Beyond Distance</li>
+                <li onclick="showImage('images/Author Pic/chapter 4/AMM0.jpg')">Across Miles Memories</li>
+                <li onclick="showImage('images/Author Pic/chapter 5/SFB0.jpg')">Strong Friendship Bond</li>
+                <li onclick="showImage('images/Author Pic/chapter 6/LS0.jpg')">Language Struggles</li>
+                <li onclick="showImage('images/Author Pic/chapter 7/tab0.jpg')">Together Across Boundaries</li>
+                <li onclick="showImage('images/Author Pic/chapter 0/Jo.jpg')">The Student Life Abroad</li>
+            </ul>
+        </section>
+
+        <section class="universal">
+            <h2>UNIVERSAL</h2>
+            <ul>
+                <li onclick="showImage('images/Universal Pic/Universal 1/dog.jpg')">Boy Meets Local Puppy</li>
+                <li onclick="showImage('images/Universal Pic/Universal 2/WS0.jpg')">Whispers of the Shadows</li>
+                <li onclick="showImage('images/Universal Pic/Universal 3/ftfs.jpg')">Flight Through Fateful Skies</li>
+                <li onclick="showImage('images/Universal Pic/Universal 4/oll.jpg')">Enduring Love’s Strength</li>
+                <li onclick="showImage('images/Universal Pic/Universal 5/cc0.jpg')">Vamshi’s Cricket Journey</li>
+                <li onclick="showImage('images/Universal Pic/Universal 6/gs.jpg')">Imaginary Local Vibe</li>
+                <li onclick="showImage('images/Universal Pic/Universal 7/LSS0.jpg')">Lily’s Sweets Success</li>
+            </ul>
+        </section>
+
+        <section class="love-and-break">
+            <h2>LOVE AND BREAK</h2>
+            <ul>
+              <li>Love And Different Story
+                    <ul>
+                        <li onclick="showImage('images/love&Break Pic/Nvv 1/nvv1.jpg')">Love Overcomes Friendship’s Test</li>
+                        <li onclick="showImage('images/love&Break Pic/Nvv 2/nvv2.jpg')">Adaptability: Overcoming Heartbreak</li>
+                        <li onclick="showImage('images/love&Break Pic/Nvv 3/nvv3.jpg')">Love Renewed and Found</li>
+                    </ul>
+                </li>
+                <li>Love’s Unseen Twist
+                    <ul>
+                        <li onclick="showImage('images/love&Break Pic/splove1/sl1.0.jpg')">Unspoken Love</li>
+                        <li onclick="showImage('images/love&Break Pic/Splove2/sl2.0.jpg')">Enduring Love’s Journey</li>
+                        <li onclick="showImage('images/love&Break Pic/splove3/llf3.0.jpg')">Lost Love Forever</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mystery">
+            <h2>MYSTERY</h2>
+            <ul>
+                <li onclick="showImage('images/Mystery Pic/Case 1/HA.jpg')">Home Alone: Mysterious Case</li>
+                <li onclick="showImage('images/Mystery Pic/mysterious/crystal.jpg')">Crystal Stone and Water</li>
+                <li onclick="showImage('images/Mystery Pic/2 mens investgating/mystery 001.jpg')">Cloudy Investigation</li>
+            </ul>
+        </section>
+
+        <section class="crime">
+            <h2>Crime</h2>
+            <ul>
+                <li onclick="showImage('images/Crime Pic/Crime 1/RSD.jpg')">Rainy, Dark Shapes</li>
+            </ul>
+        </section>
+
+        <section class="horror">
+            <h2>Horror</h2>
+            <ul>
+                <li onclick="showImage('images/Horror Pic/horror 001/shd.jpg')">Shadows of Haunting Despair</li>
+            </ul>
+        </section>
     </div>
+
+    <!-- Image display section -->
+    <section id="image-display" class="image-display" style="display: none;">
+        <img id="story-image" src="" alt="Story Image" />
+        <button onclick="hideImage()">Close</button>
+    </section>
+
+    <script>
+        function showImage(imageName) {
+            const imageDisplay = document.getElementById('image-display');
+            const storyImage = document.getElementById('story-image');
+            storyImage.src = imageName; // Set the image source
+            imageDisplay.style.display = 'flex'; // Show the image display section
+        }
+
+        function hideImage() {
+            const imageDisplay = document.getElementById('image-display');
+            imageDisplay.style.display = 'none'; // Hide the image display section
+        }
+    </script>
+</body>
 
 <!-- center is-preload -->
 <body class="center is-preload">
@@ -55,24 +170,21 @@
           <a href="https://www.facebook.com/kpsvd.prashanth" target="_blank" style="color: #f39c12; margin-right: 10px;">Facebook</a>
           <a href="https://twitter.com/KPSVDPrashanth" target="_blank" style="color: #f39c12; margin-right: 10px;">Twitter</a>
           <a href="https://www.instagram.com/prashanth_k.p.s.v.d" target="_blank" style="color: #f39c12; margin-right: 10px;">Instagram</a>
-              <a href="https://medium.com/@kpsvdp" target="_blank" style="color: #f39c12;">Medium</a>
+          <a href="https://medium.com/@kpsvdp" target="_blank" style="color: #f39c12;">Medium</a>
       </div>
   
-      <!-- Navigation Links -->
-      <nav>
-          <a href="index.html" style="color: #f39c12; margin-right: 10px;">Home</a>
-          <a href="index.html" style="color: #f39c12; margin-right: 10px;">About</a>
-          <a href="/stories" style="color: #f39c12; margin-right: 10px;">Stories</a>
-          <a href="https://kpsvdp.github.io/Blog" style="color: #f39c12; margin-right: 10px;">Blog</a>
-          <a href="/contact" style="color: #f39c12; margin-right: 10px;">Contact</a>
-          <a href="/privacy-policy" style="color: #f39c12;">Privacy Policy</a>
-      </nav>
+          <!-- Navigation Links -->
+          <nav>
+            <a href="Home.html" style="color: #f39c12; margin-right: 10px;">Home</a>
+            <a href="Stories.html" style="color: #f39c12; margin-right: 10px;">Stories</a>
+            <a href="https://kpsvdp.github.io/Blog" style="color: #f39c12; margin-right: 10px;">Blog</a>
+            <a href="contact.html" style="color: #f39c12; margin-right: 10px;">Contact</a>
+            <a href="Privacy Policy.html" style="color: #f39c12;">Privacy Policy</a>
+        </nav>
      
        </footer>
 </div>
 </div>
 </body>
 
-    <script src="script.js"></script>
-  </body>
 </html>
