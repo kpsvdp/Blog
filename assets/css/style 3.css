@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px 0;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #4a4a4a;
+    border-bottom: 2px solid #ff7e5f;
+    padding-bottom: 5px;
+}
+
+P {
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffeb3b;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+li:hover {
+    background: #ffe57f;
+}
+
+.universal ul li {
+    background: #64b5f6;
+}
+
+.universal ul li:hover {
+    background: #bbdefb;
+}
+
+.love-and-break ul li {
+    background: #f06292;
+}
+
+.love-and-break ul li:hover {
+    background: #f48fb1;
+}
+
+.mystery ul li {
+    background: #ba68c8;
+}
+
+.mystery ul li:hover {
+    background: #e1bee7;
+}
+
+.crime ul li {
+    background: #4db6ac;
+}
+
+.crime ul li:hover {
+    background: #80cbc4;
+}
+
+.horror ul li {
+    background: #ff7043;
+}
+
+.horror ul li:hover {
+    background: #ffab91;
+}
+
+.image-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-display img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+}
+
+.image-display button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff7e5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-display button:hover {
+    background-color: #feb47b;
+}

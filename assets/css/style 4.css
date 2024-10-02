@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background: #3c8dbc;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.intro {
+    background-color: #ffccbc;
+}
+
+.story {
+    background-color: #cfd8dc;
+}
+
+.inspiration {
+    background-color: #d1c4e9;
+}
+
+.medium {
+    background-color: #b3e5fc;
+}
+
+.dream {
+    background-color: #ffe0b2;
+}
+
+.conclusion {
+    background-color: #c8e6c9;
+}
+
+.ghostwriter {
+    background-color: #f8bbd0;
+}
+
+a {
+    color: #3c8dbc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #3c8dbc;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
