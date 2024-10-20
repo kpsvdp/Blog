@@ -38,6 +38,7 @@ This design effectively merges creativity and functionality, drawing visitors in
 Technologies Used:
 
 HTML5
+<img width="440" alt="Screenshot 2024-10-20 at 23 15 16" src="https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217">
 ![html](https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217)
 
 CSS3
