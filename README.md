@@ -38,14 +38,13 @@ This design effectively merges creativity and functionality, drawing visitors in
 Technologies Used:
 
 HTML5
-<img width="440" alt="Screenshot 2024-10-20 at 23 15 16" src="https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217">
-![html](https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217)
+<img width="440" alt="" src="https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217">
 
 CSS3
-![css-3](https://github.com/user-attachments/assets/79264017-eb80-4cff-8086-defbd8c7de44)
+<img width="440" alt="" src="https://github.com/user-attachments/assets/79264017-eb80-4cff-8086-defbd8c7de44">
 
 JavaScript
-![js](https://github.com/user-attachments/assets/dba13276-38c6-479b-a756-1358c0d6d798)
+<img width="440" alt="" src="https://github.com/user-attachments/assets/dba13276-38c6-479b-a756-1358c0d6d798">
 
 GitHub Pages for hosting
 
