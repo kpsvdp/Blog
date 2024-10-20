@@ -1,7 +1,6 @@
                                          𝓑𝓵𝓸𝓰 𝓫𝔂 𝓚𝓟𝓢𝓥𝓓𝓟
 
 
-
 Welcome to my personal blog, where I share stories, insights, and experiences. The blog is built using HTML, CSS, and JavaScript, leveraging the GitHub Pages platform for seamless hosting. Each post explores a variety of topics, reflecting my passions and work. I aim to provide content that resonates with readers, offering new perspectives and ideas.
 
 To explore, visit: https://kpsvdp.github.io/Blog/
@@ -37,9 +36,16 @@ This design effectively merges creativity and functionality, drawing visitors in
 
 
 Technologies Used:
+
 HTML5
+![html](https://github.com/user-attachments/assets/c5b88ea2-aff5-40a9-9069-a5bb907ac217)
+
 CSS3
+![css-3](https://github.com/user-attachments/assets/79264017-eb80-4cff-8086-defbd8c7de44)
+
 JavaScript
+![js](https://github.com/user-attachments/assets/dba13276-38c6-479b-a756-1358c0d6d798)
+
 GitHub Pages for hosting
 
 In conclusion, the Ghostwriter blog is a beautifully crafted platform where I share diverse stories, ranging from love and mystery to crime and horror. Built using HTML5, CSS3, and JavaScript, the blog features a clean and user-friendly interface, enhanced by modern design elements. It is hosted seamlessly through GitHub Pages, providing a reliable and accessible experience for readers worldwide.
