@@ -1,5 +1,115 @@
-                                         𝓑𝓵𝓸𝓰 𝓫𝔂 𝓚𝓟𝓢𝓥𝓓𝓟
+# Ghostwriter Blog
 
+A personal storytelling blog built with HTML, CSS, and JavaScript, hosted on GitHub Pages.
+
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Directory Structure](#directory-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About
+Ghostwriter is a personal blog featuring diverse genres: Universal tales, Love & Break, Mystery, Crime, and Horror. Each HTML page offers immersive storytelling and a clean design.
+
+## Features
+- Static HTML5 pages with CSS3 styling and JavaScript enhancements
+- Category-based navigation: Universal, Love & Break, Mystery, Crime, Horror
+- Responsive layout for desktop and mobile
+- Contact and Feedback pages for reader interaction
+- Sign Up and Log In interfaces (UI-only, no backend)
+
+## Tech Stack
+- **HTML5**
+- **CSS3** (including SCSS)
+- **JavaScript**
+- **GitHub Pages** for hosting
+
+## Directory Structure
+```
+Blog/
+├── assets/
+│   └── images/                # Static images used across the site
+├── images/                    # Screenshots and blog-specific images
+├── index.html                 # Main landing page
+├── indexmain.html             # Alternate homepage layout
+├── index2.html                # Secondary homepage
+├── Author.html                # Author bio and about page
+├── Home.html                  # Blog home view (post listings)
+├── Stories.html               # All stories overview
+├── Mystery.html               # Mystery category
+├── Crime.html                 # Crime category
+├── Horror.html                # Horror category
+├── Love&Break.html            # Love & Break category
+├── Contact.html               # Contact form
+├── Feedback.html              # Feedback form
+├── Case0001.html, Detective000.html, Prince00.html, ... # Individual story pages
+├── Sign up.html, Sign in.html # UI mockups for user authentication
+├── Privacy Policy.html        # Privacy policy page
+└── README.md                  # This file
+```
+
+## Getting Started
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari)
+- (Optional) A local HTTP server (e.g., `live-server` or `python -m http.server`)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kpsvdp/Blog.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd Blog
+   ```
+
+## Usage
+1. Open `index.html` in your browser to view the blog locally.
+2. Navigate through categories using the top menu.
+3. Use the Contact or Feedback pages to leave comments or suggestions.
+
+## Deployment
+This site is automatically deployed via GitHub Pages. To publish your own updates:
+1. Commit any changes to the `main` branch.
+2. Push to GitHub:
+   ```bash
+   git push origin main
+   ```
+3. Your site will be live at: `https://kpsvdp.github.io/Blog/`
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/my-feature
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add my feature"
+   ```
+4. Push to your fork:
+   ```bash
+   git push origin feature/my-feature
+   ```
+5. Open a pull request for review.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+K.P.S.V.D. Prashanth – [Author Page](https://kpsvdp.github.io/Blog/Author.html)
+
+Enjoy exploring the stories!
 
 Welcome to my personal blog, where I share stories, insights, and experiences. The blog is built using HTML, CSS, and JavaScript, leveraging the GitHub Pages platform for seamless hosting. Each post explores a variety of topics, reflecting my passions and work. I aim to provide content that resonates with readers, offering new perspectives and ideas.
 
